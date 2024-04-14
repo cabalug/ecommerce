@@ -6,7 +6,7 @@ import Home from "../components/pages/Home";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/ecommerce",
         element: <App />,
         errorElement: <Error404 />,
         children: [
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "/products",
+                path: "/ecommerce/products",
                 element: <Products />
             }
         ]
